@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "D:/develop/CPP_Phase3/CPP_Phase3_client/build/untitled_autogen",
+	"CMAKE_BINARY_DIR" : "D:/develop/CPP_Phase3/CPP_Phase3_client/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/develop/CPP_Phase3/CPP_Phase3_client/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/develop/CPP_Phase3/CPP_Phase3_client",
+	"CMAKE_SOURCE_DIR" : "D:/develop/CPP_Phase3/CPP_Phase3_client",
+	"INCLUDE_DIR" : "D:/develop/CPP_Phase3/CPP_Phase3_client/build/untitled_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/develop/CPP_Phase3/CPP_Phase3_client/qml/main.qml",
+		"D:/develop/CPP_Phase3/CPP_Phase3_client/static/SourceHanSerifCN-Regular.otf"
+	],
+	"LOCK_FILE" : "D:/develop/CPP_Phase3/CPP_Phase3_client/build/CMakeFiles/untitled_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "D:/develop/Qt/5.12.2/mingw73_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/develop/CPP_Phase3/CPP_Phase3_client/build/CMakeFiles/untitled_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/develop/CPP_Phase3/CPP_Phase3_client/qml.qrc",
+	"VERBOSITY" : 0
+}
