@@ -7,6 +7,11 @@
         "string": "cpp",
         "unordered_map": "cpp",
         "vector": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "memory_resource": "cpp",
+        "type_traits": "cpp",
+        "qobject": "cpp",
+        "chrono": "cpp",
+        "cmath": "cpp"
     }
 }

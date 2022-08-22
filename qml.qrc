@@ -1,59 +1,59 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/main.qml</file>
-        <file>qml/LoginView.qml</file>
         <file>qml/MainView.qml</file>
-        <file>qml/UserView.qml</file>
-        <file>qml/AddComView.qml</file>
-        <file>qml/BackButton.qml</file>
-        <file>qml/ComView.qml</file>
-        <file>qml/TextDialog.qml</file>
-        <file>qml/EditComView.qml</file>
-        <file>qml/SearchView.qml</file>
-        <file>qml/SearchResultView.qml</file>
-        <file>qml/CartView.qml</file>
-        <file>qml/RegularText.qml</file>
-        <file>qml/ComIcon.qml</file>
-        <file>qml/ComNameText.qml</file>
-        <file>qml/OrderView.qml</file>
-        <file>qml/OrderListView.qml</file>
-        <file>qml/SmallButton.qml</file>
-        <file>qml/BigButton.qml</file>
-        <file>qml/CusTextField.qml</file>
         <file>qml/BannerText.qml</file>
-        <file>qml/DiscountView.qml</file>
+        <file>qml/RegularText.qml</file>
+        <file>qml/BigButton.qml</file>
+        <file>qml/LoginView.qml</file>
+        <file>qml/RegisterView.qml</file>
+        <file>qml/CusTextField.qml</file>
+        <file>qml/TextDialog.qml</file>
+        <file>qml/BackButton.qml</file>
+        <file>qml/CustomerView.qml</file>
+        <file>qml/ExpressmanView.qml</file>
+        <file>qml/AdminView.qml</file>
+        <file>qml/UserInfoView.qml</file>
+        <file>qml/AddExpressmanView.qml</file>
+        <file>qml/MyReceiveView.qml</file>
+        <file>qml/MySendView.qml</file>
+        <file>qml/ItemInfoView.qml</file>
+        <file>qml/SendItemIcon.qml</file>
+        <file>qml/SendSearch.qml</file>
+        <file>qml/SendItemView.qml</file>
+        <file>qml/ItemArea.qml</file>
+        <file>qml/ReceiveSearch.qml</file>
+        <file>qml/ExpressSearch.qml</file>
+        <file>qml/MyChargeView.qml</file>
+        <file>qml/AdminSearch.qml</file>
+        <file>qml/AllItemView.qml</file>
+        <file>qml/AssignView.qml</file>
+        <file>qml/ReceiveItemIcon.qml</file>
+        <file>qml/ExpressItemIcon.qml</file>
+        <file>qml/AllItemIcon.qml</file>
+        <file>qml/AllUserView.qml</file>
+        <file>qml/Time.qml</file>
     </qresource>
     <qresource prefix="/Images">
-        <file alias="merchant">static/cashier.svg</file>
+        <file alias="back">static/back.svg</file>
+        <file alias="right">static/right.svg</file>
+        <file alias="sendItem">static/sendItem.svg</file>
+        <file alias="receiveItem">static/receiveItem.svg</file>
+        <file alias="itemList">static/itemList.svg</file>
+        <file alias="expressman">static/expressman.svg</file>
         <file alias="customer">static/customer.svg</file>
-        <file alias="book">static/book-pile.svg</file>
-        <file alias="clothes">static/clothes.svg</file>
-        <file alias="elec">static/responsive.svg</file>
-        <file alias="addcart">static/add-shopping-cart.svg</file>
-        <file alias="order">static/buy.svg</file>
-        <file alias="delete">static/delete.svg</file>
-        <file alias="edit">static/edit.svg</file>
-        <file alias="minus">static/minus.svg</file>
-        <file alias="pay">static/payment-method.svg</file>
-        <file alias="plus">static/plus.svg</file>
-        <file alias="refund">static/refund.svg</file>
-        <file alias="orderlist">static/clipboard.svg</file>
-        <file alias="search">static/loupe.svg</file>
-        <file alias="back">static/previous.svg</file>
-        <file alias="cart">static/shopping-cart.svg</file>
-        <file alias="profile">static/user.svg</file>
-        <file alias="check">static/check.svg</file>
-        <file alias="removecart">static/remove-shopping-cart.svg</file>
-        <file alias="register">static/add.svg</file>
-        <file alias="login">static/enter.svg</file>
+        <file alias="info">static/info.svg</file>
+        <file alias="userList">static/userList.svg</file>
+        <file alias="addUser">static/addUser.svg</file>
+        <file alias="deleteUser">static/deleteUser.svg</file>
+        <file alias="manager">static/manager.svg</file>
         <file alias="logout">static/logout.svg</file>
-        <file alias="passwd">static/secure.svg</file>
-        <file alias="box">static/box.svg</file>
-        <file alias="trash">static/trash.svg</file>
-        <file alias="coupon">static/coupon.svg</file>
-        <file alias="offer">static/offer.svg</file>
-    </qresource>
-    <qresource prefix="/Fonts">
-        <file alias="SourceHanSerif">static/SourceHanSerifCN-Regular.otf</file>
+        <file alias="changePassword">static/changePassword.svg</file>
+        <file alias="plus">static/plus.svg</file>
+        <file alias="search">static/search.svg</file>
+        <file alias="transfer">static/transfer.svg</file>
+        <file alias="assign">static/assign.svg</file>
+        <file alias="clock">static/clock.svg</file>
+        <file alias="deleteItem">static/deleteItem.svg</file>
     </qresource>
 </RCC>

@@ -17,7 +17,7 @@ Item {
         RegularText {
             id: banner
             width: 400
-            text: qsTr("登录页")
+            text: qsTr("注册页")
             font.pixelSize: 17
             horizontalAlignment: Text.AlignHCenter
         }
@@ -33,37 +33,38 @@ Item {
             echoMode: TextInput.Password
         }
 
+        CusTextField {
+            id: nameField
+            placeholderText: "姓名"
+        }
 
-        Row {
-            width: 300
-            height: 50
-            spacing: 200
+        CusTextField {
+            id: phoneNumberField
+            placeholderText: "电话号码"
+        }
+
+        CusTextField {
+            id: addressField
+            placeholderText: "地址"
+        }
+
+        BigButton {
+            source: "/Images/right"
             anchors.horizontalCenter: parent.horizontalCenter
-
-            BigButton {
-                source: "/Images/right"
-                mouseArea.onClicked: {
-                    const ret = gui.loginReq(usernameField.value, passwdField.value)
-                    if(ret)
-                    {
-                        error.text = "登录失败，" + ret
-                        error.open()
-                    }
-                    else
-                    {
-                        gui.infoReq()
-                        stackView.pop()
-                    }
+            mouseArea.onClicked: {
+                const ret = gui.userRegisterReq(usernameField.value, passwdField.value, nameField.value, phoneNumberField.value, addressField.value)
+                if(ret)
+                {
+                    error.text = "注册失败，" + ret
+                    error.open()
+                }
+                else
+                {
+                    stackView.pop()
                 }
             }
-
-            BigButton {
-                source: "/Images/addUser"
-                 mouseArea.onClicked: {
-                     stackView.push("RegisterView.qml")
-                 }
-            }
         }
+
     }
 
     MessageDialog {

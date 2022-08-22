@@ -22,10 +22,11 @@ int main(int argc, char * argv[])
 
     QGuiApplication app(argc, argv);
 
+    //由于大小限制，删除了字体。
     QFont font;
-    QFontDatabase::addApplicationFont(":/Fonts/SourceHanSerif");
+    // QFontDatabase::addApplicationFont(":/Fonts/SourceHanSerif");
     font.setPointSize(15);
-    font.setFamily("Source Han Serif CN");
+    // font.setFamily("Source Han Serif CN");
     app.setFont(font);
 
     QQmlApplicationEngine engine;
@@ -39,6 +40,8 @@ int main(int argc, char * argv[])
 
     GUI gui(&app, 8946);
     engine.rootContext()->setContextProperty("gui", &gui);
+    // engine.rootContext()->setContextProperty("gui", QVariant::fromValue(gui));
+
 
     engine.load(url);
 

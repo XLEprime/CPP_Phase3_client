@@ -1,14 +1,13 @@
 import QtQuick 2.12
-import QtQuick.Controls 2.12
+import QtQuick.Controls 2.15
 
 ApplicationWindow {
     width: 800
     height: 600
     visible: true
-    title: qsTr("电商交易管理系统")
+    title: qsTr("物流管理系统")
     minimumWidth: 800
     minimumHeight: 600
-    color: "aliceblue"
     property alias stackView: stackView
 
     StackView {
@@ -18,7 +17,7 @@ ApplicationWindow {
     }
 
     Connections {
-        target: client_model
+        target: gui
     }
 
     MainView {

@@ -15,7 +15,7 @@
 #include <QUdpSocket>
 #include <QJsonObject>
 
-/// 客户端类
+// 客户端类
 class Client : public QObject
 {
     Q_OBJECT
@@ -37,7 +37,8 @@ public:
         addBalance,       //充值
         query,            //查询符合条件的快递
         send,             //发送快递
-        receive           //接收快递
+        receive,          //接收快递
+        deleteItem        //删除快递
     };
 
     Client(QObject *parent, quint16 _port) : QObject(parent), socket(this), port(_port) {}
@@ -71,9 +72,9 @@ private:
      */
     QJsonObject sendMessage(const QJsonObject &msg);
 
-    QUdpSocket socket; ///< 与服务端通信的socket
-    quint16 port;      ///< 服务端端口
-    QString token;     ///< 用户凭据
+    QUdpSocket socket; // 与服务端通信的socket
+    quint16 port;      // 服务端端口
+    QString token;     // 用户凭据
 };
 
 #endif
